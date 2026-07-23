@@ -1,0 +1,608 @@
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+<style type="text/css">*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+html{
+scroll-behavior:smooth;
+}
+
+
+body{
+background:#f3f5f7;
+font-family:"SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+padding:8px;
+color:#222;
+}
+
+
+.guia-container{
+
+max-width:620px;
+margin:auto;
+
+}
+
+
+
+/*=========================
+TOPO PADRÃO
+=========================*/
+
+
+.topo-app{
+
+background:#d71920;
+overflow:hidden;
+
+}
+
+
+.topo-img img{
+
+width:100%;
+display:block;
+
+}
+
+
+
+/*=========================
+CARROSSEL
+=========================*/
+
+
+.carousel{
+
+overflow:hidden;
+margin-top:-5px;
+margin-bottom:10px;
+
+}
+
+
+.carousel-track{
+
+display:flex;
+animation:slide 6s infinite;
+
+}
+
+
+.carousel-track img{
+
+width:100%;
+flex:0 0 100%;
+display:block;
+
+}
+
+
+@keyframes slide{
+
+0%,45%{
+transform:translateX(0);
+}
+
+50%,95%{
+transform:translateX(-100%);
+}
+
+100%{
+transform:translateX(0);
+}
+
+}
+
+
+
+/*=========================
+CARD PADRÃO
+=========================*/
+
+
+.card{
+
+background:#fff;
+border-radius:12px;
+padding:12px;
+box-shadow:0 4px 12px rgba(0,0,0,.05);
+margin-bottom:10px;
+
+}
+
+
+
+/*=========================
+TEXTOS
+=========================*/
+
+
+.titulo{
+
+font-size:16px;
+font-weight:800;
+margin-bottom:8px;
+
+}
+
+
+.info{
+
+font-size:14px;
+color:#555;
+line-height:1.6;
+
+}
+
+
+.lista{
+
+font-size:14px;
+color:#444;
+line-height:1.7;
+
+}
+
+
+
+/*=========================
+HERO
+=========================*/
+
+
+.hero{
+
+padding:35px 20px;
+text-align:center;
+background:#fff;
+
+}
+
+
+.hero-imagem{
+
+margin-bottom:25px;
+
+}
+
+
+.hero-imagem img{
+
+width:100%;
+max-width:340px;
+display:block;
+margin:auto;
+
+}
+
+
+.hero h1{
+
+font-size:32px;
+font-weight:800;
+line-height:1.2;
+margin-bottom:15px;
+
+}
+
+
+.hero p{
+
+font-size:16px;
+line-height:28px;
+color:#666;
+
+}
+
+
+.hero-scroll{
+
+margin-top:35px;
+font-size:12px;
+letter-spacing:3px;
+color:#999;
+
+}
+
+
+.hero-scroll span{
+
+display:block;
+font-size:32px;
+color:#d71920;
+
+}
+</style>
+<div class="guia-container"><!-- TOPO -->
+<div class="topo-app">
+<div class="topo-img"><img src="https://bolaobrasileirao2015.wordpress.com/wp-content/uploads/2026/07/design-sem-nome-2026-07-14t231002.508.png" /></div>
+</div>
+<!-- CARROSSEL -->
+
+<div class="carousel">
+<div class="carousel-track"><img src="https://bolaobrasileirao2015.wordpress.com/wp-content/uploads/2026/04/design-sem-nome-2026-04-11t012053.676.png" /> <img src="https://bolaobrasileirao2015.wordpress.com/wp-content/uploads/2026/04/design-sem-nome-2026-04-11t012053.676.png" /></div>
+</div>
+<!-- HERO -->
+
+<section class="hero">
+<div class="hero-imagem"><img src="https://bolaobrasileirao2015.wordpress.com/wp-content/uploads/2026/07/chatgpt-image-23-de-jul.-de-2026-01_08_57.png" /></div>
+
+<h1>Sua cidade inteira.<br />
+Em um &uacute;nico aplicativo.</h1>
+
+<p>Encontre empresas, delivery, eventos, turismo, profissionais, servi&ccedil;os e muito mais em uma &uacute;nica plataforma.</p>
+
+<div class="hero-scroll">DESCUBRA <span>&darr;</span></div>
+</section>
+<!-- ==========================================================
+PARTE 2
+DESCUBRA O BARRA TEM
+========================================================== -->
+<style type="text/css">.descubra{
+
+padding:18px;
+background:#fff;
+
+}
+
+
+.descubra-banner{
+
+border-radius:12px;
+overflow:hidden;
+margin-bottom:18px;
+
+}
+
+
+.descubra-banner img{
+
+width:100%;
+display:block;
+
+}
+
+
+.descubra-titulo{
+
+font-size:22px;
+font-weight:800;
+text-align:center;
+line-height:1.3;
+margin-bottom:12px;
+
+}
+
+
+.descubra-texto{
+
+font-size:15px;
+line-height:26px;
+color:#666;
+text-align:center;
+margin-bottom:22px;
+
+}
+
+
+.recursos{
+
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:12px;
+
+}
+
+
+.recurso{
+
+background:#f8f9fb;
+border-radius:12px;
+padding:14px;
+display:flex;
+align-items:center;
+gap:10px;
+
+}
+
+
+.recurso img{
+
+width:50px;
+height:50px;
+object-fit:contain;
+
+}
+
+
+.recurso h3{
+
+font-size:14px;
+font-weight:800;
+
+}
+
+
+.recurso p{
+
+font-size:12px;
+color:#777;
+
+}
+
+
+.frase-final{
+
+margin-top:22px;
+background:#d71920;
+color:#fff;
+padding:16px;
+border-radius:12px;
+font-size:15px;
+font-weight:700;
+text-align:center;
+line-height:24px;
+
+}
+</style>
+<section class="descubra">
+<div class="descubra-banner"><img src="https://bolaobrasileirao2015.wordpress.com/wp-content/uploads/2026/07/chatgpt-image-23-de-jul.-de-2026-01_04_09.png" /></div>
+
+<div class="descubra-titulo">Tudo o que Barra do Cho&ccedil;a oferece.</div>
+
+<div class="descubra-texto">Um aplicativo criado para aproximar pessoas, empresas e oportunidades, reunindo em um &uacute;nico lugar tudo o que voc&ecirc; procura.</div>
+
+<div class="recursos">
+<div class="recurso">
+<div>
+<h3>Empresas</h3>
+
+<p>Com&eacute;rcio e servi&ccedil;os.</p>
+</div>
+</div>
+
+<div class="recurso">
+<div>
+<h3>Delivery</h3>
+
+<p>Pe&ccedil;a sem complica&ccedil;&atilde;o.</p>
+</div>
+</div>
+
+<div class="recurso">
+<div>
+<h3>Eventos</h3>
+
+<p>Fique informado.</p>
+</div>
+</div>
+
+<div class="recurso">
+<div>
+<h3>Servi&ccedil;os</h3>
+
+<p>Tudo organizado.</p>
+</div>
+</div>
+</div>
+
+<div class="frase-final">Muito mais categorias, novidades e oportunidades esperam por voc&ecirc;.</div>
+</section>
+<!-- BENEFÍCIOS -->
+
+<div class="card">
+<div class="titulo">Por que baixar o Barra Tem?</div>
+
+<div class="lista">✔ Aplicativo gratuito<br />
+✔ Empresas e servi&ccedil;os da cidade<br />
+✔ Delivery na palma da m&atilde;o<br />
+✔ Eventos e novidades locais<br />
+✔ Informa&ccedil;&otilde;es organizadas<br />
+✔ Desenvolvido para Barra do Cho&ccedil;a</div>
+</div>
+<!-- FRASE INSTITUCIONAL -->
+
+<div class="card">
+<div class="titulo">Muito mais que um guia.</div>
+
+<div class="info">O Barra Tem conecta moradores, visitantes e empresas, criando uma experi&ecirc;ncia digital completa para encontrar tudo o que a cidade oferece.</div>
+</div>
+<!-- ==========================================================
+PARTE 3
+BAIXE O APLICATIVO
+========================================================== -->
+<style type="text/css">.download{
+
+padding:18px;
+background:#f3f5f7;
+
+}
+
+
+.download-card{
+
+background:#d71920;
+border-radius:14px;
+padding:25px 18px;
+text-align:center;
+overflow:hidden;
+
+}
+
+
+
+.download-titulo{
+
+font-size:24px;
+font-weight:800;
+line-height:1.3;
+color:#fff;
+margin-bottom:12px;
+
+}
+
+
+
+.download-texto{
+
+font-size:15px;
+line-height:26px;
+color:#fff;
+margin-bottom:25px;
+
+}
+
+
+
+.stores{
+
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:12px;
+
+}
+
+
+
+.stores img{
+
+width:250px;
+display:block;
+
+}
+
+
+
+.stores a{
+
+transition:.3s;
+
+}
+
+
+
+.stores a:hover{
+
+transform:scale(1.04);
+
+}
+
+
+
+.download-info{
+
+margin-top:22px;
+font-size:13px;
+line-height:24px;
+color:#ffeaea;
+
+}
+</style>
+<section class="download">
+<div class="download-card">
+<div class="download-titulo">Baixe gratuitamente o Barra Tem</div>
+
+<div class="download-texto">Dispon&iacute;vel para Android e iPhone.<br />
+Clique em uma das lojas abaixo e comece agora mesmo.</div>
+
+<div class="stores"><a href="https://play.google.com/store/apps/details?id=br.com.app.gpu3278527.gpu0e36087ef94062e0b66c70f912238707&amp;hl=pt_BR" target="_blank"><img alt="Google Play" src="https://bolaobrasileirao2015.wordpress.com/wp-content/uploads/2026/07/card-negocios-12.png" /> </a> <a href="https://apps.apple.com/br/app/barra-tem/id6767550932" target="_blank"> <img alt="App Store" src="https://bolaobrasileirao2015.wordpress.com/wp-content/uploads/2026/07/card-negocios-10.png" /> </a></div>
+
+<div class="download-info">✔ Download gratuito<br />
+✔ Atualiza&ccedil;&otilde;es constantes<br />
+✔ Dispon&iacute;vel para Android e iPhone<br />
+✔ Desenvolvido especialmente para Barra do Cho&ccedil;a</div>
+</div>
+</section>
+<!-- ==========================================================
+RODAPÉ PADRÃO
+========================================================== -->
+<style type="text/css">.divisor-contato{
+
+width:70%;
+height:2px;
+background:#d71920;
+margin:20px 0 10px 16px;
+border-radius:2px;
+
+}
+
+
+
+.contato-card{
+
+padding:10px 16px 20px;
+
+}
+
+
+
+.titulo-contato{
+
+display:flex;
+align-items:center;
+font-size:20px;
+font-weight:800;
+margin-bottom:14px;
+
+}
+
+
+
+.titulo-contato::before{
+
+content:"";
+width:4px;
+height:20px;
+background:#d71920;
+margin-right:10px;
+border-radius:2px;
+
+}
+
+
+
+.icones{
+
+display:flex;
+gap:12px;
+
+}
+
+
+
+.icones img{
+
+width:75px;
+height:75px;
+
+}
+
+
+
+.banner-final img{
+
+width:100%;
+display:block;
+
+}
+</style>
+<!-- CONTATO -->
+<div class="divisor-contato"></div>
+
+<div class="contato-card">
+<div class="titulo-contato">Entre em Contato</div>
+
+<div class="icones"><a href="https://wa.me/5577981636553?text=Oi%2C%20tudo%20bem%21%0AGostaria%20de%20saber%20mais%20sobre%20o%20Barra%20Tem." target="_blank"><img src="https://bolaobrasileirao2015.wordpress.com/wp-content/uploads/2026/04/02843bce30fa1bd827afdfde8c711ffa32a55131.png" /> </a> <a href="https://www.instagram.com/guiabarratem" target="_blank"> <img src="https://bolaobrasileirao2015.wordpress.com/wp-content/uploads/2026/04/2120582a3acb074297d20ab21dd225418e15d998.png" /> </a></div>
+</div>
+<!-- BANNER FINAL -->
+
+<div class="banner-final"><img src="https://bolaobrasileirao2015.wordpress.com/wp-content/uploads/2026/07/banner-rodape-1.png" /></div>
+</div>
+<!-- FIM GUIA CONTAINER -->
