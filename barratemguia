@@ -1,0 +1,332 @@
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+<style type="text/css">*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+html{
+scroll-behavior:smooth;
+}
+
+
+body{
+background:#f3f5f7;
+font-family:"SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+padding:8px;
+color:#222;
+}
+
+
+.guia-container{
+
+max-width:620px;
+margin:auto;
+
+}
+
+
+
+/*=========================
+TOPO PADRÃO
+=========================*/
+
+
+.topo-app{
+
+background:#d71920;
+overflow:hidden;
+
+}
+
+
+.topo-img img{
+
+width:100%;
+display:block;
+
+}
+
+
+
+/*=========================
+CARROSSEL
+=========================*/
+
+
+.carousel{
+
+overflow:hidden;
+margin-top:-5px;
+margin-bottom:10px;
+
+}
+
+
+.carousel-track{
+
+display:flex;
+animation:slide 6s infinite;
+
+}
+
+
+.carousel-track img{
+
+width:100%;
+flex:0 0 100%;
+display:block;
+
+}
+
+
+@keyframes slide{
+
+0%,45%{
+transform:translateX(0);
+}
+
+50%,95%{
+transform:translateX(-100%);
+}
+
+100%{
+transform:translateX(0);
+}
+
+}
+
+
+
+/*=========================
+CARD PADRÃO
+=========================*/
+
+
+.card{
+
+background:#fff;
+border-radius:12px;
+padding:12px;
+box-shadow:0 4px 12px rgba(0,0,0,.05);
+margin-bottom:10px;
+
+}
+
+
+
+/*=========================
+TEXTOS
+=========================*/
+
+
+.titulo{
+
+font-size:16px;
+font-weight:800;
+margin-bottom:8px;
+
+}
+
+
+.info{
+
+font-size:14px;
+color:#555;
+line-height:1.6;
+
+}
+
+
+.lista{
+
+font-size:14px;
+color:#444;
+line-height:1.7;
+
+}
+
+
+
+/*=========================
+HERO
+=========================*/
+
+
+.hero{
+
+padding:35px 20px;
+text-align:center;
+background:#fff;
+
+}
+
+
+.hero-imagem{
+
+margin-bottom:25px;
+
+}
+
+
+.hero-imagem img{
+
+width:100%;
+max-width:340px;
+display:block;
+margin:auto;
+
+}
+
+
+.hero h1{
+
+font-size:32px;
+font-weight:800;
+line-height:1.2;
+margin-bottom:15px;
+
+}
+
+
+.hero p{
+
+font-size:16px;
+line-height:28px;
+color:#666;
+
+}
+
+
+.hero-scroll{
+
+margin-top:35px;
+font-size:12px;
+letter-spacing:3px;
+color:#999;
+
+}
+
+
+.hero-scroll span{
+
+display:block;
+font-size:32px;
+color:#d71920;
+
+}
+</style>
+<div class="guia-container"><!-- TOPO -->
+<div class="topo-app">
+<div class="topo-img"><img src="https://bolaobrasileirao2015.wordpress.com/wp-content/uploads/2026/07/design-sem-nome-2026-07-14t231002.508.png" /></div>
+</div>
+<!-- CARROSSEL -->
+
+<div class="carousel">
+<div class="carousel-track"><img src="https://bolaobrasileirao2015.wordpress.com/wp-content/uploads/2026/04/design-sem-nome-2026-04-11t012053.676.png" /> <img src="https://bolaobrasileirao2015.wordpress.com/wp-content/uploads/2026/04/design-sem-nome-2026-04-11t012053.676.png" /></div>
+</div>
+<!-- HERO -->
+
+<section class="hero">
+<div class="hero-imagem"><img src="https://bolaobrasileirao2015.wordpress.com/wp-content/uploads/2026/07/chatgpt-image-23-de-jul.-de-2026-01_08_57.png" /></div>
+
+<h1>Sua cidade inteira.<br />
+Em um único aplicativo.</h1>
+
+<p>Encontre empresas, delivery, eventos, turismo, profissionais, serviços e muito mais em uma única plataforma.</p>
+
+<div class="hero-scroll">DESCUBRA <span>↓</span></div>
+</section>
+<!-- ==========================================================
+PARTE 2
+DESCUBRA O BARRA TEM
+========================================================== -->
+<style type="text/css">.descubra{
+
+padding:18px;
+background:#fff;
+
+}
+
+
+.descubra-banner{
+
+border-radius:12px;
+overflow:hidden;
+margin-bottom:18px;
+
+}
+
+
+.descubra-banner img{
+
+width:100%;
+display:block;
+
+}
+
+
+.descubra-titulo{
+
+font-size:22px;
+font-weight:800;
+text-align:center;
+line-height:1.3;
+margin-bottom:12px;
+
+}
+
+
+.descubra-texto{
+
+font-size:15px;
+line-height:26px;
+color:#666;
+text-align:center;
+margin-bottom:22px;
+
+}
+
+
+.recursos{
+
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:12px;
+
+}
+
+
+.recurso{
+
+background:#f8f9fb;
+border-radius:12px;
+padding:14px;
+display:flex;
+align-items:center;
+gap:10px;
+
+}
+
+
+.recurso img{
+
+width:50px;
+height:50px;
+object-fit:contain;
+
+}
+
+
+.recurso h3{
+
+font-size:14px;
+font-weight:800;
+
+}
+
+
+.re
